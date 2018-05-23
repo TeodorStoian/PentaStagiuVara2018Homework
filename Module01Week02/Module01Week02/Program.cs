@@ -43,7 +43,7 @@ namespace Module01Week02
             DateTime birthDay = new DateTime(year, month, day);
             var now = DateTime.Now;
             var age = now.Year - year;
-            if (now.Month <= month && now.Day < day)
+            if (now.Month <= month)
             {
                 age--;
             }
