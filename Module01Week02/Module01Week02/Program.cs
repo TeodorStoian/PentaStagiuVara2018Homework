@@ -13,7 +13,6 @@ namespace Module01Week02
             Male,
             Female
         }
-
         private static Gender? getGender(string gender)
         {
             if (gender == "m")
